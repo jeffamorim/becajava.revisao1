@@ -9,9 +9,6 @@ BEGIN
 	WHERE id = @id
 END
 
-EXEC SP_Atualizar_Fornecedor_Cnpj 3,'23.456.789/0001-13'
-
+EXEC SP_Atualizar_Fornecedor_Cnpj 2,'23.456.789/0001-13'
 
 SELECT * FROM fornecedor
-
-
